@@ -5,7 +5,8 @@ import * as dotenv from 'dotenv'
 dotenv.config()
 const app = express();
 
-const PORT = 4000;
+// const PORT = 4000;
+const PORT = process.env.PORT;
 const movies = [
     {
         "id": "99",
@@ -171,5 +172,5 @@ app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
 
 // GET
 // POST
-// Put 
+// Put
 // Delete
