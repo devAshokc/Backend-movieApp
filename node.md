@@ -55,6 +55,8 @@ app.put("/movies/:id", async function (request, response) {
 
 MONGO_URL = mongodb+srv://satty:welcome123@cluster0.dzq6rrj.mongodb.net
 
+file extention is need to be use must in nodeJS
+
 const movies = [
     {
         "id": "99",
