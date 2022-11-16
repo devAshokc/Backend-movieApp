@@ -1,7 +1,7 @@
 // const express = require("express");
 import express from "express";
 import { MongoClient } from "mongodb";
-import moviesRouter from "./routers/moviesRouters.js"
+import moviesRouter from "./routers/movies.routers.js"
 import * as dotenv from 'dotenv'
 dotenv.config()
 const app = express();

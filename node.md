@@ -53,7 +53,7 @@ app.put("/movies/:id", async function (request, response) {
     console.log(result)
 });
 
-MONGO_URL = mongodb+srv://satty:welcome123@cluster0.dzq6rrj.mongodb.net
+MONGO_URL = 
 
 file extention is need to be use must in nodeJS
 
