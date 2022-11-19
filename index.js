@@ -21,7 +21,7 @@ console.log("Mongo is connected 😎🎇");
 app.use(express.json())
 
 app.get("/", function (request, response) {
-    response.send("node connect with mongo That so cool pretty🚀🎯😎");
+    response.send("node connect with mongo That so cool pretty man🚀🎯😎");
 });
 app.use('/movies', moviesRouter)
 
