@@ -1,4 +1,5 @@
-const os = require('os')
+// const os = require('os')
+import os from "os"
 
 // 1kb = 1024bytes
 // 1mb = 1024kb
