@@ -7,7 +7,7 @@ export async function deleteMoviesById(id) {
     return await client.db("b39wd").collection("movies").deleteOne({ id: id });
 }
 export async function CreateMovies(data) {
-    return await client.db("b39wd").collection("movies").insertMany(data);
+    return await client.db("b39wd").collection("movies").insertOne(data);
 }
 export async function getAllMovies(request) {
     return await client.db("b39wd").collection("movies").find(request.query).toArray();
