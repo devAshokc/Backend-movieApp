@@ -25,7 +25,6 @@ router.post("/signup", async function (request, response) {
     } else {
         const hashPassword = await getHashedPassword(password)
         console.log(hashPassword, password)
-        // db.users.insertOne([])
         const result = await CreateUsers({ username: username, password: hashPassword })
         response.send(result)
     }
