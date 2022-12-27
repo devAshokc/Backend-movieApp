@@ -6,7 +6,7 @@ const router = express.Router()
 
 async function getHashedPassword(password) {
     const No_of_Rounds = 10;
-    const salt = await bcrypt.genSalt(No_of_Rounds); //Random string
+    const salt = await bcrypt.genSalt(No_of_Rounds);
     const hashedPassword = await bcrypt.hash(password, salt)
     console.log(salt);
     console.log(hashedPassword)
